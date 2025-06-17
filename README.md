@@ -6,8 +6,9 @@ RDF is python library for normalising the area and height of functions but speci
 
 $ git clone https://github.com/BJaudun/RDF
 
-## Usage
 
+## Usage
+```python
 import RDF
 
 # returns area normalised y_values
@@ -15,6 +16,7 @@ RDF.normalise_area()
 
 # returns height normalised y_values
 RDF.normalise_height()
+```
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
